@@ -11,6 +11,10 @@ plugins {
     id 'java-library'
     id 'maven-publish'
 }
+
+group='net.desyncr.node.metrics'
+version = '0.1'
+
 task jar (type: Jar, overwrite: true) {
     archivesBaseName = "node-metrics"
 }
